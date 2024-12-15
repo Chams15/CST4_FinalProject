@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascripts/class.js" defer></script>
+    <script src="javascripts/run.js" defer></script>
+</head>
+<body>
+    <h1>Turing Machine Simulator</h1>
+    <form id="turing-form">
+        <label for="ruleset">Ruleset</label>
+        <textarea name="ruleset" id="ruleset" cols="40" rows="5" placeholder="Enter your Turing Machine rules"></textarea>
+
+        <label for="tape">Tape</label>
+        <input type="text" id="tape" name="tape" placeholder="Enter the initial tape configuration">
+
+        <label for="head">Head Initial Position</label>
+        <input type="text" id="head" name="head" placeholder="Enter the initial head position">
+
+        <button type="submit">Run</button>
+    </form>
+
+    <div class="output" id="output">
+        <p>Output will be displayed here</p>
+    </div>
+</body>
+</html>
