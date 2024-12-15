@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="438.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tps.cs4_finalproject.DFA">
+   <children>
+      <Circle id="s1" fx:id="s1" fill="DODGERBLUE" layoutX="89.0" layoutY="63.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="s2" fx:id="s2" fill="DODGERBLUE" layoutX="232.0" layoutY="63.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="s3" fx:id="s3" fill="DODGERBLUE" layoutX="386.0" layoutY="63.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="deadstate" fx:id="deadstate" fill="DODGERBLUE" layoutX="232.0" layoutY="164.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="36.0" layoutX="160.0" layoutY="63.0" startX="-33.0" />
+      <Line endX="36.0" layoutX="312.0" layoutY="62.0" startX="-43.0" startY="1.0" />
+      <Line endX="55.0" endY="56.0" layoutX="147.0" layoutY="90.0" startX="-33.0" />
+      <Button fx:id="dfaButton" layoutX="153.0" layoutY="357.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="159.0" text="Check" />
+      <TextField fx:id="dfatext" layoutX="89.0" layoutY="300.0" prefHeight="25.0" prefWidth="288.0" />
+      <Label layoutX="89.0" layoutY="275.0" prefHeight="17.0" prefWidth="136.0" text="Input:" />
+      <Line endX="-80.0" layoutX="312.0" layoutY="127.0" startX="-80.0" startY="-27.0" />
+      <ImageView id="flowchart" fx:id="dfaflowchart" fitHeight="224.0" fitWidth="332.0" layoutX="456.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Flowchart%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="returnDFA" layoutX="26.0" layoutY="390.0" mnemonicParsing="false" text="Return" />
+   </children>
+</AnchorPane>

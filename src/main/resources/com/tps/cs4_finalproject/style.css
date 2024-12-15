@@ -1,0 +1,10 @@
+.rightAnchorPane {
+    -fx-background-image: url("Images/logo.png")
+;
+    -fx-background-repeat: no-repeat
+;
+    -fx-background-position: center
+;
+    -fx-background-size: cover
+;
+}
