@@ -68,5 +68,14 @@ public class Menu {
             }
         });
 
+        cfgmenu.setOnAction(actionEvent -> {
+            try {
+                Functions f = new Functions();
+                f.changeScene(actionEvent,"CFG.fxml");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
     }
 }

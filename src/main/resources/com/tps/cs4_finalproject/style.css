@@ -1,10 +1,53 @@
-.rightAnchorPane {
-    -fx-background-image: url("Images/logo.png")
-;
-    -fx-background-repeat: no-repeat
-;
-    -fx-background-position: center
-;
-    -fx-background-size: cover
-;
+/* General styles */
+.root {
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff; /* Light gray background for the application */
+}
+
+/* Left Pane Styling */
+.left-pane {
+    -fx-background-color: #2c3e50; /* Dark blue-gray background */
+    -fx-padding: 10; /* Padding around the content */
+}
+
+/* Right Pane Styling */
+#rightAnchorPane {
+    -fx-background-color: #ecf0f1; /* Light gray background for the right panel */
+    -fx-border-color: #bdc3c7; /* Subtle border */
+    -fx-border-width: 2; /* Border thickness */
+    -fx-border-radius: 5; /* Rounded corners */
+}
+
+/* Button Styling */
+.menu-button {
+    -fx-background-color: #3498db; /* Light blue button color */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Slightly larger font size for readability */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-border-radius: 5; /* Rounded button edges */
+    -fx-background-radius: 5; /* Rounded background */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 1); /* Subtle drop shadow */
+    -fx-padding: 10; /* Padding inside the button */
+    -fx-cursor: hand; /* Hand cursor on hover */
+}
+
+/* Button Hover Effects */
+.menu-button:hover {
+    -fx-background-color: #2980b9; /* Darker blue when hovered */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 8, 0, 0, 2); /* Stronger shadow */
+}
+
+/* Button Pressed Effects */
+.menu-button:pressed {
+    -fx-background-color: #1e5f8a; /* Even darker blue when clicked */
+    -fx-effect: none; /* Remove shadow effect */
+}
+
+/* SplitPane Divider Styling */
+.split-pane .split-pane-divider {
+    -fx-background-color: #7f8c8d; /* Neutral gray divider */
+    -fx-padding: 2; /* Divider thickness */
+    -fx-border-color: #bdc3c7; /* Divider border color */
+    -fx-border-width: 0 1 0 1; /* Add border to left and right sides */
 }

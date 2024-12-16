@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane prefHeight="438.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tps.cs4_finalproject.DFA">
+<AnchorPane prefHeight="438.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tps.cs4_finalproject.DFA" stylesheets="@style.css">
    <children>
       <Circle id="s1" fx:id="s1" fill="DODGERBLUE" layoutX="89.0" layoutY="63.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle id="s2" fx:id="s2" fill="DODGERBLUE" layoutX="232.0" layoutY="63.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" />

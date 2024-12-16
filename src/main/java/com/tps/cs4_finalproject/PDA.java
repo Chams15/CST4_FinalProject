@@ -60,6 +60,11 @@ public class PDA {
     public void initialize() {
         pdabutton.setOnAction(event -> {
             pdaTextArea.clear();
+            if (!(inputarea.getText().contains("a")) || !(inputarea.getText().contains("b"))) {
+                pdaTextArea.setText("Invalid Input: Only symbol a and b are valid!");
+                return;
+            }
+
 
             if (inputarea.getText() == null || inputarea.getText().equals("")) {
                 pdaTextArea.setText("Invalid Input: Please put a proper string");

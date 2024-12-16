@@ -10,22 +10,22 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
 
-
-<AnchorPane prefHeight="295.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tps.cs4_finalproject.CFG">
+<AnchorPane prefHeight="411.0" prefWidth="722.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tps.cs4_finalproject.CFG">
    <children>
-      <TextArea id="outputarea" fx:id="outputfield" editable="false" layoutX="24.0" layoutY="164.0" prefHeight="25.0" prefWidth="370.0" wrapText="true" />
-      <TextField id="inputfield" fx:id="inputfield" layoutX="24.0" layoutY="228.0" prefHeight="25.0" prefWidth="370.0" />
-      <Button fx:id="cfgbutton" layoutX="183.0" layoutY="262.0" mnemonicParsing="false" text="CFG" />
+      <TextArea id="outputarea" fx:id="outputfield" editable="false" layoutX="29.0" layoutY="142.0" prefHeight="135.0" prefWidth="370.0" wrapText="true" />
+      <TextField id="inputfield" fx:id="inputfield" layoutX="29.0" layoutY="308.0" prefHeight="25.0" prefWidth="370.0" />
+      <Button fx:id="cfgbutton" layoutX="187.0" layoutY="347.0" mnemonicParsing="false" text="Verify" />
       <ImageView fx:id="cfgimage" fitHeight="196.0" fitWidth="315.0" layoutX="402.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Images/Capture118.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="24.0" layoutY="211.0" prefHeight="17.0" prefWidth="70.0" text="Input:" />
+      <Label layoutX="29.0" layoutY="280.0" prefHeight="17.0" prefWidth="70.0" text="Input:" />
       <Circle fx:id="s1" fill="DODGERBLUE" layoutX="59.0" layoutY="80.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="s2" fill="DODGERBLUE" layoutX="209.0" layoutY="80.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="s3" fill="DODGERBLUE" layoutX="361.0" layoutY="80.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <Line endX="179.0" endY="80.0" startX="88.99998474121094" startY="79.99998474121094" />
       <Line endX="179.0" endY="80.0" layoutX="151.0" startX="88.99998474121094" startY="79.99998474121094" />
+      <Button fx:id="cfgreturn" layoutX="581.0" layoutY="347.0" mnemonicParsing="false" text="Return to Menu" />
    </children>
 </AnchorPane>
