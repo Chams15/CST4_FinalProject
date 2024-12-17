@@ -102,7 +102,6 @@ public class CFG {
                                 outputfield.setText("State 1 Reached");
                             } else if (index == firstStringArray.length - 2) {
                                 updateState(s2, Color.GREEN, "State 2 Reached");
-                                outputfield.appendText("\nState 2 Reached");
                             } if (index == firstStringArray.length - 1) {
                                 updateState(s3, Color.GREEN, "Valid Input");
                                 updateState(s2, Color.GREEN, "");

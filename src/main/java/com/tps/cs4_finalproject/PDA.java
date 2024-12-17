@@ -98,10 +98,6 @@ public class PDA {
 
             }
 
-
-
-
-
         });
 
         pdareturnbutton.setOnAction(actionEvent -> {
